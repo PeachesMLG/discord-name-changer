@@ -61,7 +61,7 @@ client.once('ready', async () => {
                 }
             }
         }
-    }, 10000);
+    }, 60000);
 });
 
 client.login(process.env.DISCORD_TOKEN).catch((error) => {

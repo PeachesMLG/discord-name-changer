@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  name_changer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    pull_policy: build
+    restart: always
+    environment:
+      DISCORD_TOKEN:

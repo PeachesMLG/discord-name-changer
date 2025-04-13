@@ -5,6 +5,11 @@
         "user": "785950978917531698",
         "replace": ["Faddu", "Waddu"],
         "with": "Laddu"
+      },
+      {
+        "user": "706821340073689179",
+        "replace": ["NOT an AI", "not an AI"],
+        "with": "100% an AI"
       }
     ]
   }
